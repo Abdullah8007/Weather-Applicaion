@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5768d7013a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+
+            <div class="search">
+                <input type="text" placeholder="Enter City Name" name="" id="city" spellcheck="true">
+                <button onclick="Search()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div class="weather">
+                <!-- <img src="./images/snow.png" alt="" class="weather-icon"> -->
+                <h1><span id="temp">--</span> °C</h1>
+                <h2 id="cityName">--</h2>
+                <div class="details">
+
+                    <div class="col">
+                        <!-- <img src="./images/humidity.png" alt=""> -->
+                        <div>
+                            <p><span id="humidity">--</span> %</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <!-- <img src="./images/wind.png" alt=""> -->
+                        <div>
+                            <p><span id="pressure">--</span> hPa</p>
+                            <p>Pressure</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
